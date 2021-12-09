@@ -172,5 +172,6 @@
     ```
 
 
-> https://hardhat.org/guides/waffle-testing.html  
-> https://docs.openzeppelin.com/upgrades-plugins/1.x/
+> https://hardhat.org/guides/project-setup.html  
+> https://docs.openzeppelin.com/upgrades-plugins/1.x/  
+> https://github.com/trufflesuite/ganache
