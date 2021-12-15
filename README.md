@@ -155,6 +155,8 @@
     const Foo = await ethers.getContractFactory("Foo")
     const foo = Foo.attach(process.env.PROXY_ADDRESS)
     (await foo.retrieve()).toString()
+    await foo.add(50)
+    (await foo.retrieve()).toString()
     ```
 
 16. Upgrade contract
