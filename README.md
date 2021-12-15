@@ -38,7 +38,11 @@
 
     async function main() {
         const Foo = await ethers.getContractFactory("Foo")
-        const foo = await upgrades.deployProxy(Foo, [100], {initializer: "add"})
+        const foo = await upgrades.deployProxy(Foo)
+
+        // For initial value, execute function "add" with args "[100]"
+        // const foo = await upgrades.deployProxy(Foo, [100], {initializer: "add"})
+
         await foo.deployed()
     }
     
