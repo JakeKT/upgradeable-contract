@@ -121,17 +121,16 @@
     };
     ```
 
-11. Install and run ganache-cli for local test
+11. Run local node
 
     ```bash
-    npm install -g ganache-cli
-    ganache-cli
+    npx hardhat node
     ```
 
 12. Export env
 
     ```bash
-    export LOCAL_RPC_URL=http://127.0.0.1:8545
+    export LOCAL_RPC_URL=http://localhost:8545
     export PRIVATE_KEY=0xbd5d9c5e000dc1b03bb69bc0f6a9d69600efa53d7ae81f7739cfed2d1ed11e59
     ```
 
